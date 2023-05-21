@@ -1,0 +1,128 @@
+      body {
+        background: radial-gradient(
+          circle at 18.7% 37.8%,
+          rgb(250, 250, 250) 0%,
+          rgb(225, 234, 238) 90%
+        );
+      }
+      .container {
+        max-width: 600px;
+        padding: 20px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 20px;
+      }
+      .logo {
+        max-width: 150px;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-family: Inter;
+        text-align: center;
+      }
+      h2 {
+        font-family: Inter;
+        font-weight: 300;
+        text-align: center;
+      }
+      p {
+        font-family: Inter;
+        text-align: center;
+        line-height: 1.5;
+      }
+      .intro-image {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .intro-image:hover {
+        opacity: 0.9;
+        filter: contrast(50%);
+      }
+      .theme-button {
+        display: block;
+        margin: 10px auto;
+        line-height: 3;
+        padding: 0 30px;
+        font-size: 13px;
+        color: white;
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(90, 92, 106) 0%,
+          rgb(32, 45, 58) 81.3%
+        );
+        border-radius: 20px;
+        border: 1px solid #000;
+        border-color: white;
+        font-family: "Inter";
+      }
+
+      .theme-button:hover {
+        color: #000;
+        background: #ebedee;
+        border-color: rgb(110, 136, 161);
+        transition: all 200ms ease-in-out;
+      }
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+        margin-top: 5px;
+      }
+      img {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 20px;
+      }
+      .gallery-pictures {
+        width: 100%;
+        transition: all 150ms ease-in-out;
+      }
+
+      .gallery-pictures:hover {
+        transform: scale(1.5);
+      }
+      button {
+        display: block;
+        margin: 10px auto;
+        line-height: 3;
+        padding: 0 30px;
+        font-size: 13px;
+        color: white;
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(90, 92, 106) 0%,
+          rgb(32, 45, 58) 81.3%
+        );
+        border-radius: 20px;
+        border: 1px solid #000;
+        border-color: white;
+        font-family: "Inter";
+      }
+      button:hover {
+        color: black;
+        border-color: rgb(110, 136, 161);
+        background: white;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      footer {
+        font-family: monospace;
+        text-align: center;
+        margin: 10px auto;
+      }
+      .dark {
+        background: black;
+        color: white;
+      }
+      .dark .container {
+        background: linear-gradient(
+          109.6deg,
+          rgba(0, 0, 0, 0.93) 11.2%,
+          rgb(63, 61, 61) 78.9%
+        );
+      }
